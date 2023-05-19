@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#puzzleContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.row {
+  display:flex;
+  flex-direction: row;
+  width: 300px;
+  height: 50px;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: solid;
+}
+
+.block {
+  background: orange;
+  position: absolute;
+  border: solid;
+  border-radius: 7px;
+}
+
+#redBlock {
+  height: 46px;
+  width: 95px;
+  background: red;
+  position: absolute;
+  border-radius: 7px;
+  border: solid;
+}
